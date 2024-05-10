@@ -10,22 +10,28 @@
 
 *{
     box-sizing: border-box;
+    margin: 0 ;
+}
+
+header{
+    background-color: white;
 }
 h1,h2{
   
    font-family:"shrikhand";
    
    color:white;
+
+   display: flex;
+   justify-content: center; 
 }
+
 
 .head2{
     display: flex;
     justify-content: center;
 }
-h1{
-   display: flex;
-   justify-content: center;  
-}
+
 p{
     font-family: "garamond";
     color: white;
@@ -49,10 +55,12 @@ width: 20%;
 #preview2{
     display: flex;
     flex-direction: column;
-    align-items:end;
+   align-items:flex-end;
+    
 }
 #zen-pic{
     display: flex;
+    align-items:none;
     justify-content: center;
 }
 
@@ -78,6 +86,12 @@ width: 20%;
     border-color: white;
    background-color: black; 
    padding-top: 2em;
+}
+
+#Jurassic{
+ margin-left: 1.5em;
+ text-align: center;
+width:90%
 }
 
 #preview3{
