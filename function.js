@@ -28,3 +28,8 @@ image_counter = 1;
 else
 image_counter++;
 }, 300)
+
+
+function project(){
+    document.getElementById("button").href="http://127.0.0.1:5500/portfolio.html";
+}
