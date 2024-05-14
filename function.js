@@ -31,5 +31,5 @@ image_counter++;
 
 
 function project(){
-    document.getElementById("button").href="http://127.0.0.1:5500/portfolio.html";
+    document.getElementById("button").href="https://edu.google.com/workspace-for-education/classroom/";
 }
