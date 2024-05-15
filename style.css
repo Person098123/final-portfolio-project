@@ -16,8 +16,6 @@
 
 a {
     text-decoration: none;
-
-
 }
 
 header {
@@ -38,6 +36,16 @@ h2 {
     margin-top: 4em;
     width: 50%;
 
+}
+
+.about-text2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.about-text{
+    max-width: 70%;
 }
 
 .head2 {
@@ -77,11 +85,42 @@ body {
 .ahead {
     display: flex;
     justify-content: space-around;
-    padding: 2em;
+    padding: 1em;
+    font-size: 1.5em;
 }
 
 #img_meem {
-    width: 20%;
+  width: 95%;
+}
+
+#img_me{
+    display: flex;
+    justify-content: center;
+    background-color:  black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width:50%; 
+    margin-bottom: 2em;
+}
+
+.img_you{
+    display: flex;
+    justify-content: center;
+}
+
+hobby{
+    display: flex;
+    flex-direction: row;  
+}
+
+.hobby-text1{
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+}
+
+.hobby-text2{
+max-width: 40%;
 }
 
 .preview {
