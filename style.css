@@ -228,7 +228,7 @@ body {
     border: solid;
     border-color: white;
     background-color: black;
-    width: 65%;
+    width: 40%;
     padding-top: 2em;
 }
 
@@ -250,4 +250,71 @@ body {
     display: flex;
     justify-content: center;
     
+}
+
+@keyframes rotating{
+100%{rotate: 300deg;}
+}
+@keyframes wave{
+    50% {rotate: -30deg;}
+    100% {rotate: 0deg;}
+}
+.ani{
+    border:black solid;
+    border-width: .5em;
+    width: 10%;
+   margin-left:-1em;
+    margin-top: 3em;
+    height: 0;
+    animation-name: wave ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.circle{
+    border: black solid;
+    border-width: .5em;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.body{
+    border: black solid;
+    border-width: .5em;
+    width: 0%;
+margin-left: 6em;
+}
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: .7em;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.leg{
+    border: black solid;
+    border-width: .5em;
+    width: 0%;
+    height: 510%;
+margin-left: 2em;
+
+rotate: 45deg;
+
+}
+
+.leg2{
+    border: black solid;
+    border-width: .5em;
+    width: 0%;
+    height: 510%;
+margin-left: 5.5em;
+
+rotate: -45deg;
 }

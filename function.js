@@ -30,6 +30,7 @@ image_counter++;
 }, 300)
 
 
-function project(){
-    document.getElementById("button").href="https://edu.google.com/workspace-for-education/classroom/";
+function rotate(){
+    document.getElementById("rotatae").style.animation="rotating 2s";
+
 }
