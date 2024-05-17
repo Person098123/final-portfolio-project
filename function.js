@@ -31,6 +31,36 @@ image_counter++;
 
 
 function rotate(){
-    document.getElementById("rotatae").style.animation="rotating 2s";
+    const stickSpinning = [
+        { transform: "rotate(0) " },
+        { transform: "rotate(360deg)" },
+      ];
+      
+      const rotateLength = {
+        duration: 2000,
+        iterations: 1,
+      };
+      
+      const stick = document.querySelector(".rotatae");
 
+      stick.addEventListener("click", () => {
+        stick.animate(stickSpinning, rotateLength);
+      });
+
+}
+
+  // Carousel
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsById("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
