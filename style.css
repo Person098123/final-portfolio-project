@@ -55,6 +55,11 @@ h2 {
     }
 }
 
+div{
+    content: "";
+
+}
+
 .carousel img {
     object-fit: cover;
     box-shadow: none;
@@ -68,6 +73,18 @@ h2 {
 .carousel-container {
     display: flex;
     justify-content: center;
+}
+
+
+
+.ul{
+    font-size: 2em;
+    color: white;
+}
+
+.ul2{
+
+    color: white;  
 }
 
 /* Slideshow container */
